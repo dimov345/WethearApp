@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 
 # 🗝️ Въведи своя API ключ тук
-API_KEY = "4ac274aa678b073aa1511d3de8f777cc"
+API_KEY = "https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}"
 CITY = "Plovdiv"
 
 # 📍 Координати за Пловдив
